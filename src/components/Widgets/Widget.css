@@ -1,0 +1,23 @@
+.heading{
+    margin-right: 20px;
+    margin-left: 73%;
+    margin-top: -75%;
+    display: flex;
+}
+.heading >p{
+    margin: 10px;
+}
+.para2{
+    color: grey;
+}
+.poster2{
+    margin-left: 992px;
+    margin-top: 15px;
+    margin-bottom: 114px;
+}
+.logo2{
+    margin-left: 1014px;
+    margin-top: -178px;
+    display: flex;
+    color: white;
+}

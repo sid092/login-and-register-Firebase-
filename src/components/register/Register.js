@@ -10,6 +10,7 @@ const Register = () => {
     const [name, setName] = useState("")
     const [reEnterPassword, setreEnterPassword] = useState("")
     const navigate = useNavigate();
+
     function handleSubmit(e) {
         e.preventDefault();
         createUserWithEmailAndPassword(auth, email, password)
@@ -24,6 +25,7 @@ const Register = () => {
 
 
     }
+    
     function signIn(e) {
         navigate('/')
     }

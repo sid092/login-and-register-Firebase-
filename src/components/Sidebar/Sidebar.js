@@ -5,10 +5,13 @@ import { BiConversation ,BiLogOut } from "react-icons/bi";
 import { MdOutlineSubscriptions } from "react-icons/md";
 import { useNavigate } from 'react-router-dom'
 const Sidebar = () => {
+
   const navigate = useNavigate();
+
   function logout(e){
     navigate('/');
   }
+  
   return (
        <div className="sidebar">
       <ul>

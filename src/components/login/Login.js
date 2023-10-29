@@ -21,6 +21,7 @@ const Login = () => {
                 alert("user doesn't exist");
             });
     }
+    
     function register(e) {
         navigate('/register');
     }
